@@ -31,12 +31,12 @@ div.content {
     background-color: white;
     margin-top: 60px;
     margin-bottom: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
     padding: 5px;
     padding-top: 0px;
     padding-bottom: 30px;
-    min-width: 350px;
+    min-width: 330px;
     box-shadow: 0px 0px 8px 8px #00000033;
     overflow: visible;
 }
@@ -46,10 +46,10 @@ h1 {text-align: center;
 }
 p.description {
     text-align: center;
+    width: 100%;
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
-    margin: 5px;
 }
 div.line {
     background-color: black;
@@ -155,9 +155,6 @@ table.steps tr {
         margin-left: 10%;
         min-width: 380px;   
         padding: 0px 30px 30px 30px;  
-    }
-    p.description {
-        width: 400px
     }
     table.info td {
         font-size: 12px;
