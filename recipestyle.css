@@ -1,0 +1,187 @@
+* {
+    overflow: auto;
+}
+body {
+    background-color: #767799;
+    font-family: Arial;
+}
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+div.category {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+    
+}
+p.category {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.content {
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px #00000033;
+    overflow: visible;
+}
+h1 {text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+p.description {
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.line {
+    background-color: black;
+    opacity: 50%;
+    width: 200px;
+    height: 1px;
+    display: inline-block;
+}
+div.info {
+    position:relative;
+}
+table.info {
+   background-color: #767799C0;
+   height: 50px;
+   color: white;
+   position:absolute; 
+   bottom:0; 
+   width:100%;
+}
+table.info:hover {
+    animation-name: info_table_hover;
+    animation-duration: 2s;
+    background-color: #767799FF;
+}
+table.info td {
+    vertical-align: top;
+    font-size: 12px;
+    padding-top: 5px;
+}
+table.info th {
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+img {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 300px;
+    background-color: lightgray;
+}
+div.col { 
+    display: inline-block;
+    width: 100%;
+}
+div.col1 {
+    vertical-align: middle;
+}
+div.suroviny p {
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    min-height: 40px;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+@keyframes info_table_hover {
+    from {background-color: #767799C0;}
+    to {background-color: #767799FF;}
+}
+div.suroviny p:hover {
+    border: 1px solid #afb1d6;
+    background-color: #afb1d6;
+}
+div.col2 {
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 5px solid #767799;
+    padding-bottom: 5px;
+}
+table.steps p.number {
+    background-color: #767799;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 4px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0;
+}
+table.steps td.istrustep {
+    padding-left: 10px;
+    font-size: 14px;
+}
+table.steps td {
+    vertical-align: top;
+}
+table.steps tr {
+    height: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+    div.content {
+        margin-right: 10%;
+        margin-left: 10%;
+        min-width: 380px;   
+        padding: 0px 30px 30px 30px;  
+    }
+    table.info td {
+        font-size: 12px;
+    }
+    table.info th {
+        font-size: 16px;
+    }
+    div.col { 
+        width: 45%;
+    }
+    table.info {
+        height: 80px;
+    }
+    div.col {
+        margin-top: 30px;
+    }
+    div.col1 {
+        margin-right: 10%;
+    }
+    div.col2 {
+        float:right;
+    }
+}
+@media only screen and (min-width: 950px) {
+    div.content {
+        max-width: 675px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
