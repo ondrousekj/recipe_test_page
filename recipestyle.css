@@ -50,6 +50,7 @@ p.description {
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
+    margin: 5px;
 }
 div.line {
     background-color: black;
