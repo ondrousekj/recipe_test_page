@@ -46,7 +46,6 @@ h1 {text-align: center;
 }
 p.description {
     text-align: center;
-    width: auto;
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
